@@ -12,3 +12,16 @@ a[href]{
 #products + p{
     color: powderblue;
 }
+
+article  :last-child{
+    color: red;
+
+}
+
+ul li:nth-child(odd){
+    color: blue;
+}
+
+a:hover{
+    color:crimson;
+}
