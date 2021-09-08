@@ -5,6 +5,10 @@ a[href]{
     color: chocolate;
 }
 
-#products p{
+#products ~ p{
     color: pink;
+}
+
+#products + p{
+    color: powderblue;
 }
