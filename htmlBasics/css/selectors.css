@@ -37,5 +37,8 @@ p::first-line{
     color: blue;
 }
 ::selection{
-    color: crimson;
+    background-color: crimson;
+}
+p::after{
+    content: "!!!";
 }
